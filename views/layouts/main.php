@@ -18,7 +18,7 @@
     </head>
 
     <body>
-	<script src="<?= $this->theme->getBaseUrl().'/js/lightbox-plus-jquery.min.js'; ?>"></script>
+
     <?php $this->beginBody() ?>
 
     <!-- start: first top navigation bar -->
@@ -30,14 +30,17 @@
             </div>
 
             <div class="topbar-actions pull-right">
-				<div class="no-icons">
-					<?= \humhub\modules\user\widgets\AccountTopMenu::widget(); ?>
-				</div>
+                <div class="no-icons">
+					<?= \humhub\modules\user\widgets\AccountTopMenu::widget();
+					?>
+				<div class="topbar-actions pull-right">
 				<form id="switchform">
 					<a href="javascript:chooseStyle('none', 60)" checked="checked"><i class="fa fa-sun-o"></i></a>
 					<a href="javascript:chooseStyle('night-theme', 60)"<i class="fa fa-moon-o"></i></a>
 				</form>
-            </div>
+			</div>
+        </div>
+    </div>
 
             <div class="notifications pull-right">
                 <?=
@@ -69,43 +72,12 @@
         <!-- end: second top navigation bar -->
 
     <?= \humhub\modules\tour\widgets\Tour::widget(); ?>
-
-    <!-- start: show content (and check, if exists a sublayout -->
-    <?php if (isset($this->context->subLayout) && $this->context->subLayout != "") : ?>
-        <?= $this->render($this->context->subLayout, array('content' => $content)); ?>
-    <?php else : ?>
-
         <?= $content; ?>
 
-    <?php endif; ?>
     <!-- end: show content -->
-
-    <!-- start: Modal (every lightbox will/should use this construct to show content)-->
-    <div class="modal" id="globalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <?= \humhub\widgets\LoaderWidget::widget(); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end: Modal -->
 
     <?php $this->endBody() ?>
 
-	<script>
-	$(document).ready(function() {
-		try {
-			$.browserSelector();
-			if($("html").hasClass("chrome")) {
-				$.smoothScroll();
-			}
-		} catch(err) {
-		};
-	});
-	</script>
-
-    </body>
+</body>
 </html>
 <?php $this->endPage() ?>
