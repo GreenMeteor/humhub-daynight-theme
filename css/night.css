@@ -1,11 +1,11 @@
 .colorDefault {
-    color: #8C8C8C
+    color: #fff
 }
 .backgroundDefault {
-    background: #8C8C8C
+    background: #fff
 }
 .borderDefault {
-    border-color: #8C8C8C
+    border-color: #fff
 }
 .colorPrimary {
     color: #708FA0 !important
@@ -95,8 +95,8 @@
 }
 body {
     padding-top: 130px;
-    background-color: #8C8C8C;
-    color: #777777;
+    background-color: #2E2E2E;
+    color: #404040;
     font-family: 'Open Sans', sans-serif
 }
 body a,
@@ -260,7 +260,7 @@ input[type=select] {
     top: 1px;
     margin-left: -10px;
     border-top-width: 0;
-    border-bottom-color: #525252;
+    border-bottom-color: #404040;
     z-index: 1035
 }
 #topbar-first .notifications .arrow {
@@ -362,7 +362,7 @@ input[type=select] {
 }
 #topbar-second {
     top: 50px;
-    background-color: #525252;
+    background-color: #404040;
     z-index: 1029;
     background-image: none;
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -421,7 +421,7 @@ input[type=select] {
 #topbar-second .nav>li>a:active,
 #topbar-second .nav>li>a:focus {
     border-bottom: 3px solid #6FDBE8;
-    background-color: #808080;
+    background-color: #404040;
     color: #555555;
     text-decoration: none
 }
@@ -435,19 +435,19 @@ input[type=select] {
     min-height: 47px
 }
 #topbar-second .nav>li>ul>li>a {
-    border-left: 3px solid #525252;
-    background-color: #525252;
+    border-left: 3px solid #404040;
+    background-color: #404040;
     color: #555555
 }
 #topbar-second .nav>li>ul>li>a:hover,
 #topbar-second .nav>li>ul>li>a.active {
     border-left: 3px solid #6FDBE8;
-    background-color: #808080;
+    background-color: #404040;
     color: #555555
 }
 #topbar-second .nav>li>a#space-menu {
     padding-right: 13px;
-    border-right: 1px solid #8C8C8C
+    border-right: 1px solid #2E2E2E
 }
 #topbar-second .nav>li>a#search-menu {
     padding-top: 15px
@@ -456,7 +456,7 @@ input[type=select] {
 #topbar-second .nav .open>a,
 #topbar-second .nav>li.active {
     border-bottom: 3px solid #6FDBE8;
-    background-color: #808080;
+    background-color: #404040;
     color: #555555
 }
 #topbar-second .nav>li.active>a:hover {
@@ -482,12 +482,12 @@ input[type=select] {
     padding-top: 40px
 }
 .login-container .text {
-    color: #525252;
+    color: #404040;
     font-size: 12px;
     margin-bottom: 15px
 }
 .login-container .text a {
-    color: #525252;
+    color: #404040;
     text-decoration: underline
 }
 .login-container .panel a {
@@ -495,7 +495,7 @@ input[type=select] {
 }
 .login-container h1,
 .login-container h2 {
-    color: #525252 !important
+    color: #404040 !important
 }
 .login-container .panel {
     box-shadow: 0 0 15px #627D92;
@@ -509,7 +509,7 @@ input[type=select] {
 .login-container select {
     color: #555555
 }
-#acccccount-login-form .form-group {
+#ACCCCCount-login-form .form-group {
     margin-bottom: 10px
 }
 .dropdown-menu li a {
@@ -547,7 +547,7 @@ input[type=select] {
 .modal .dropdown-menu li.divider,
 .panel .dropdown-menu li.divider,
 .nav-tabs .dropdown-menu li.divider {
-    background-color: #808080;
+    background-color: #404040;
     border-bottom: none;
     margin: 9px 1px !important
 }
@@ -581,13 +581,13 @@ input[type=select] {
 .panel .dropdown-menu li.selected,
 .nav-tabs .dropdown-menu li.selected {
     border-left: 3px solid #6FDBE8;
-    background-color: #808080 !important
+    background-color: #404040 !important
 }
 ul.contextMenu {
     border: 1px solid #D7D7D7
 }
 ul.contextMenu li.divider {
-    background-color: #808080;
+    background-color: #404040;
     border-bottom: none;
     margin: 9px 1px !important
 }
@@ -609,11 +609,11 @@ ul.contextMenu li a:hover {
 ul.contextMenu li:hover,
 ul.contextMenu li.selected {
     border-left: 3px solid #6FDBE8;
-    background-color: #808080 !important
+    background-color: #404040 !important
 }
 .media-list li {
     padding: 10px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #EEEEEE;
     position: relative;
     border-left: 3px solid white;
     font-size: 12px
@@ -622,9 +622,9 @@ ul.contextMenu li.selected {
     color: #555555
 }
 .media-list .badge-space-type {
-    background-color: #808080;
+    background-color: #404040;
     border: 1px solid #D7D7D7;
-    color: #B2B2B2;
+    color: #454545;
     padding: 3px 3px 2px 3px
 }
 .media-list li.new {
@@ -633,7 +633,7 @@ ul.contextMenu li.selected {
 }
 .media-list li:hover,
 .media-list li.selected {
-    background-color: #808080;
+    background-color: #404040;
     border-left: 3px solid #6FDBE8
 }
 .media-list li.placeholder {
@@ -716,7 +716,7 @@ ul.contextMenu li.selected {
 }
 .panel {
     border: none;
-    background-color: #525252;
+    background-color: #404040;
     box-shadow: 0 0 3px #DADADA;
     -webkit-box-shadow: 0 0 3px #DADADA;
     -moz-box-shadow: 0 0 3px #DADADA;
@@ -799,7 +799,7 @@ ul.contextMenu li.selected {
 }
 .panel-profile .panel-profile-header {
     position: relative;
-    border: 3px solid #525252;
+    border: 3px solid #404040;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px
 }
@@ -817,7 +817,7 @@ ul.contextMenu li.selected {
     padding-top: 30px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    color: #525252;
+    color: #404040;
     pointer-events: none;
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.38) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(1%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.38)));
@@ -831,7 +831,7 @@ ul.contextMenu li.selected {
     font-size: 30px;
     font-weight: 100;
     margin-bottom: 7px;
-    color: #525252;
+    color: #404040;
     max-width: 600px;
     white-space: nowrap;
     overflow: hidden;
@@ -860,7 +860,7 @@ ul.contextMenu li.selected {
     left: 15px
 }
 .panel-profile .panel-profile-header .profile-user-photo-container .profile-user-photo {
-    border: 3px solid #525252;
+    border: 3px solid #404040;
     border-radius: 5px
 }
 .panel-profile .panel-profile-controls {
@@ -949,7 +949,7 @@ ul.contextMenu li.selected {
 .well {
     border: none;
     box-shadow: none;
-    background-color: #8C8C8C;
+    background-color: #2E2E2E;
     margin-bottom: 1px
 }
 .well hr {
@@ -964,35 +964,35 @@ ul.contextMenu li.selected {
 }
 .tab-sub-menu li>a:hover,
 .tab-sub-menu li>a:focus {
-    background-color: #808080;
-    border-bottom-color: #dddddd
+    background-color: #404040;
+    border-bottom-color: #DDDDDD
 }
 .tab-sub-menu li.active>a {
-    background-color: #525252;
+    background-color: #404040;
     border-bottom-color: transparent
 }
 .tab-menu {
     padding-top: 10px;
-    background-color: #525252
+    background-color: #404040
 }
 .tab-menu .nav-tabs {
     padding-left: 10px
 }
 .tab-menu .nav-tabs li>a {
     padding-top: 12px;
-    border-color: #dddddd;
-    border-bottom: 1px solid #dddddd;
-    background-color: #808080;
+    border-color: #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    background-color: #404040;
     max-height: 41px;
     outline: none
 }
 .tab-menu .nav-tabs li>a:hover,
 .tab-menu .nav-tabs li>a:focus {
     padding-top: 10px;
-    border-top: 3px solid #dddddd
+    border-top: 3px solid #DDDDDD
 }
 .tab-menu .nav-tabs li>a:hover {
-    background-color: #808080
+    background-color: #404040
 }
 .tab-menu .nav-tabs li.active>a,
 .tab-menu .nav-tabs li.active>a:hover {
@@ -1000,29 +1000,29 @@ ul.contextMenu li.selected {
     border-top: 3px solid #6FDBE8
 }
 .tab-menu .nav-tabs li.active>a {
-    background-color: #525252;
+    background-color: #404040;
     border-bottom-color: transparent
 }
 ul.tab-menu {
     padding-top: 10px;
-    background-color: #525252;
+    background-color: #404040;
     padding-left: 10px
 }
 ul.tab-menu-settings li>a {
     padding-top: 12px;
-    border-color: #dddddd;
-    border-bottom: 1px solid #dddddd;
-    background-color: #808080;
+    border-color: #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    background-color: #404040;
     max-height: 41px;
     outline: none
 }
 ul.tab-menu-settings li>a:hover,
 ul.tab-menu-settings li>a:focus {
     padding-top: 10px;
-    border-top: 3px solid #dddddd !important
+    border-top: 3px solid #DDDDDD !important
 }
 ul.tab-menu-settings li>a:hover {
-    background-color: #808080
+    background-color: #404040
 }
 ul.tab-menu-settings li.active>a,
 ul.tab-menu-settings li.active>a:hover,
@@ -1031,7 +1031,7 @@ ul.tab-menu-settings li.active>a:focus {
     border-top: 3px solid #6FDBE8 !important
 }
 ul.tab-menu-settings li.active>a {
-    background-color: #525252;
+    background-color: #404040;
     border-bottom-color: transparent !important
 }
 .nav-pills .dropdown-menu,
@@ -1089,7 +1089,7 @@ ul.tab-menu-settings li.active>a {
 .nav-tabs .dropdown-menu li.selected,
 .account .dropdown-menu li.selected {
     border-left: 3px solid #6FDBE8;
-    color: #525252 !important;
+    color: #404040 !important;
     background-color: #628394 !important
 }
 .nav-pills.preferences .dropdown .dropdown-toggle {
@@ -1162,7 +1162,7 @@ ul.tab-menu-settings li.active>a {
 .nav .open>a,
 .nav .open>a:hover,
 .nav .open>a:focus {
-    border-color: #8C8C8C;
+    border-color: #2E2E2E;
     color: #555555
 }
 .nav .open>a .caret,
@@ -1208,7 +1208,7 @@ ul.tab-menu-settings li.active>a {
     font-size: 12px
 }
 .btn-default {
-    background: #8C8C8C;
+    background: #2E2E2E;
     color: #7A7A7A !important
 }
 .btn-default:hover,
@@ -1240,7 +1240,7 @@ ul.tab-menu-settings li.active>a {
 }
 .btn-primary {
     background: #708FA0;
-    color: #525252 !important
+    color: #404040 !important
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -1270,7 +1270,7 @@ ul.tab-menu-settings li.active>a {
 }
 .btn-info {
     background: #6FDBE8;
-    color: #525252 !important
+    color: #404040 !important
 }
 .btn-info:hover,
 .btn-info:focus {
@@ -1300,7 +1300,7 @@ ul.tab-menu-settings li.active>a {
 }
 .btn-danger {
     background: #FF8989;
-    color: #525252 !important
+    color: #404040 !important
 }
 .btn-danger:hover,
 .btn-danger:focus {
@@ -1330,7 +1330,7 @@ ul.tab-menu-settings li.active>a {
 }
 .btn-success {
     background: #97D271;
-    color: #525252 !important
+    color: #404040 !important
 }
 .btn-success:hover,
 .btn-success:focus {
@@ -1360,7 +1360,7 @@ ul.tab-menu-settings li.active>a {
 }
 .btn-warning {
     background: #FDD198;
-    color: #525252 !important
+    color: #404040 !important
 }
 .btn-warning:hover,
 .btn-warning:focus {
@@ -1398,7 +1398,7 @@ ul.tab-menu-settings li.active>a {
     padding-left: 10px
 }
 .form-control {
-    border: 2px solid #8C8C8C;
+    border: 2px solid #2E2E2E;
     box-shadow: none;
     min-height: 35px
 }
@@ -1509,7 +1509,7 @@ a.input-field-addon-sm {
     text-shadow: none
 }
 .label-default {
-    background: #8C8C8C;
+    background: #2E2E2E;
     color: #7A7A7A !important
 }
 a.label-default:hover {
@@ -1650,11 +1650,11 @@ a.label-warning:hover {
     font-family: Arial, sans-serif;
     font-size: 10px !important;
     text-transform: uppercase;
-    color: #525252;
+    color: #404040;
     vertical-align: baseline;
     white-space: nowrap;
     text-shadow: none;
-    background-color: #D7D7D7;
+    background-color: #4c4c4c;
     line-height: 1
 }
 .popover {
@@ -1690,7 +1690,7 @@ a.label-warning:hover {
     padding: 6px 15px;
     border: none;
     border-width: 0 !important;
-    border-left: 3px solid #525252 !important;
+    border-left: 3px solid #404040 !important;
     font-size: 12px;
     font-weight: 600
 }
@@ -1703,7 +1703,7 @@ a.list-group-item.active:hover,
 a.list-group-item.active:focus {
     z-index: 2;
     color: #555555;
-    background-color: #808080;
+    background-color: #404040;
     border-left: 3px solid #6FDBE8 !important
 }
 @media (max-width: 991px) {
@@ -1725,7 +1725,7 @@ a.list-group-item.active:focus {
     a.list-group-item.active:focus {
         border: none !important;
         background: #708FA0 !important;
-        color: #525252 !important
+        color: #404040 !important
     }
 }
 @media screen and (max-width: 768px) {
@@ -1874,7 +1874,7 @@ a.list-group-item.active:focus {
     height: 10px;
     margin-bottom: 15px;
     box-shadow: none;
-    background: #8C8C8C;
+    background: #2E2E2E;
     border-radius: 10px
 }
 .progress-bar-info {
@@ -1979,7 +1979,7 @@ table td a:hover {
 }
 .grid-view .filters input,
 .grid-view .filters select {
-    border: 2px solid #8C8C8C;
+    border: 2px solid #2E2E2E;
     box-shadow: none;
     min-height: 35px;
     border-radius: 4px;
@@ -2157,7 +2157,7 @@ table td a:hover {
     font-size: 12px
 }
 .wallFilterPanel .dropdown-menu li a:hover {
-    color: #525252 !important
+    color: #404040 !important
 }
 .stream-entry-loader {
     float: right;
@@ -2173,7 +2173,7 @@ table td a:hover {
     background-color: white;
     padding: 5px;
     border-radius: 4px;
-    border: 1px solid #dddddd;
+    border: 1px solid #DDDDDD;
     font-size: 11px
 }
 .space-owner {
@@ -2188,7 +2188,7 @@ table td a:hover {
     top: 42px;
     left: 42px;
     font-size: 16px;
-    background: #525252;
+    background: #404040;
     width: 24px;
     height: 24px;
     padding: 2px 3px 1px 4px;
@@ -2217,7 +2217,7 @@ table td a:hover {
     margin-right: 0
 }
 .space-acronym {
-    color: #525252;
+    color: #404040;
     text-align: center;
     display: inline-block
 }
@@ -2298,7 +2298,7 @@ table td a:hover {
 .comment_create .fileinput-button:hover .fa,
 .content_edit .fileinput-button:hover .fa {
     background: transparent !important;
-    color: #B2B2B2
+    color: #454545
 }
 .comment_create .fileinput-button:active,
 .content_edit .fileinput-button:active {
@@ -2328,7 +2328,7 @@ table td a:hover {
     width: 100%;
     height: 100%;
     padding: 20px;
-    background: #9E9E9E
+    background: #404040
 }
 .mime {
     background-repeat: no-repeat;
@@ -2388,7 +2388,7 @@ ul.tour-list li.completed a {
 }
 .atwho-view .cur {
     border-left: 3px solid #6FDBE8;
-    background-color: #808080 !important
+    background-color: #404040 !important
 }
 .atwho-user,
 .atwho-space,
@@ -2574,7 +2574,7 @@ ul.tour-list li.completed a {
     border-bottom-right-radius: 5px;
     padding: 15px 20px;
     font-size: 1em;
-    border-left: 5px solid #888888888
+    border-left: 5px solid #333333888
 }
 [data-ui-markdown] table {
     margin-bottom: 20px;
@@ -2603,7 +2603,7 @@ ul.tour-list li.completed a {
     padding: 8px;
     line-height: 20px;
     vertical-align: top;
-    border-top: 1px solid #dddddd
+    border-top: 1px solid #DDDDDD
 }
 [data-ui-markdown] dt,
 [data-ui-markdown] dd {
@@ -2646,7 +2646,7 @@ ul.tour-list li.completed a {
     font-size: .8em
 }
 blockquote {
-    border-left: 2px dotted #888888;
+    border-left: 2px dotted #333333;
     padding-left: 5px;
     background: #D0F0FF
 }
@@ -2724,7 +2724,7 @@ blockquote {
     color: black
 }
 .wmd-prompt-dialog>form>input[type="button"] {
-    border: 1px solid #888888888;
+    border: 1px solid #333333888;
     font-family: trebuchet MS, helvetica, sans-serif;
     font-size: .8em;
     font-weight: bold
@@ -2736,14 +2736,14 @@ blockquote {
 }
 .ui-widget-header {
     border: none !important;
-    background: #525252 !important;
+    background: #404040 !important;
     color: #7A7A7A !important;
     font-weight: 300 !important
 }
 .ui-widget-content {
-    border: 1px solid #ddddddcda !important;
+    border: 1px solid #DDDDDDcda !important;
     border-radius: 0 !important;
-    background: #525252;
+    background: #404040;
     color: #555555 !important;
     -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1)
@@ -2754,7 +2754,7 @@ blockquote {
 }
 .ui-datepicker .ui-datepicker-prev:hover,
 .ui-datepicker .ui-datepicker-next:hover {
-    background: #525252 !important;
+    background: #404040 !important;
     border: none;
     margin: 1px
 }
@@ -2762,14 +2762,14 @@ blockquote {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
     border: none !important;
-    background: #808080 !important;
+    background: #404040 !important;
     color: #7A7A7A !important
 }
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
     border: none !important;
-    border: 1px solid #B2B2B2 !important
+    border: 1px solid #454545 !important
 }
 .ui-state-active,
 .ui-widget-content .ui-state-active,
@@ -2841,12 +2841,12 @@ blockquote {
     color: #85CA2B
 }
 .highlight {
-    background-color: #5252528e0
+    background-color: #4040408e0
 }
 .alert-default {
     color: #555555;
-    background-color: #808080;
-    border-color: #8C8C8C;
+    background-color: #404040;
+    border-color: #2E2E2E;
     font-size: 13px
 }
 .alert-default .info {
@@ -2859,12 +2859,12 @@ blockquote {
 }
 .alert-warning {
     color: #E9B168;
-    background-color: #525252bf7;
+    background-color: #404040bf7;
     border-color: #FDD198
 }
 .alert-danger {
     color: #FF8989;
-    background-color: #5252526f6;
+    background-color: #4040406f6;
     border-color: #FF8989
 }
 .data-saved {
@@ -2892,8 +2892,8 @@ img.bounceIn {
     display: block
 }
 .select2-container--humhub .select2-selection {
-    background-color: #525252;
-    border: 2px solid #8C8C8C;
+    background-color: #404040;
+    border: 2px solid #2E2E2E;
     border-radius: 4px;
     color: #555555;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2901,8 +2901,8 @@ img.bounceIn {
     outline: 0
 }
 .select2-container--humhub .select2-search--dropdown .select2-search__field {
-    background-color: #525252;
-    border: 2px solid #8C8C8C;
+    background-color: #404040;
+    border: 2px solid #2E2E2E;
     border-radius: 4px;
     color: #555555;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2928,7 +2928,7 @@ img.bounceIn {
     padding: 0
 }
 .select2-container--humhub .select2-results__option[aria-disabled=true] {
-    color: #777777;
+    color: #404040;
     cursor: not-allowed
 }
 .select2-container--humhub .select2-results__option[aria-selected=true] {
@@ -2940,7 +2940,7 @@ img.bounceIn {
     border-left: 3px solid transparent
 }
 .select2-container--humhub .select2-results__option--highlighted[aria-selected] {
-    background-color: #808080;
+    background-color: #404040;
     border-left: 3px solid #6FDBE8;
     color: #555555
 }
@@ -2971,7 +2971,7 @@ img.bounceIn {
     padding-left: 72px
 }
 .select2-container--humhub .select2-results__group {
-    color: #777777;
+    color: #404040;
     display: block;
     padding: 6px 12px;
     font-size: 12px;
@@ -2999,7 +2999,7 @@ img.bounceIn {
     color: #333333
 }
 .select2-container--humhub.select2-container--disabled .select2-selection {
-    border-color: #cccccc;
+    border-color: #CCCCCC;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -3009,7 +3009,7 @@ img.bounceIn {
 }
 .select2-container--humhub.select2-container--disabled .select2-selection,
 .select2-container--humhub.select2-container--disabled .select2-selection--multiple .select2-selection__choice {
-    background-color: #eeeeee
+    background-color: #EEEEEE
 }
 .select2-container--humhub.select2-container--disabled .select2-selection__clear,
 .select2-container--humhub.select2-container--disabled .select2-selection--multiple .select2-selection__choice__remove {
@@ -3087,7 +3087,7 @@ img.bounceIn {
     cursor: default;
     padding: 0 6px;
     background-color: #6FDBE8;
-    color: #525252;
+    color: #404040;
     border-radius: 3px;
     font-size: 12px !important;
     padding: 2px 5px 2px 2px;
@@ -3273,8 +3273,8 @@ img.bounceIn {
 }
 .has-warning .select2-container--focus .select2-selection,
 .has-warning .select2-container--open .select2-selection {
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #525252efc;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #525252efc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #404040efc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #404040efc;
     border-color: #FCBB66
 }
 .has-warning.select2-drop-active {
@@ -3349,8 +3349,8 @@ img.bounceIn {
 }
 ul.tag_input {
     list-style: none;
-    background-color: #525252;
-    border: 1px solid #cccccc;
+    background-color: #404040;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3372,7 +3372,7 @@ ul.tag_input li img {
 .spaceInput {
     background-color: #6FDBE8;
     font-weight: 600;
-    color: #525252;
+    color: #404040;
     border-radius: 3px;
     font-size: 12px !important;
     padding: 2px;
