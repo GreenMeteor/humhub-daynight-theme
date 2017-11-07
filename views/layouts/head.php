@@ -1,6 +1,5 @@
 <link rel="stylesheet" type="text/css" title="day" href="<?= $this->theme->getBaseUrl().'/css/theme.css'; ?>">
 <link rel="alternate stylesheet" type="text/css" title="night-theme" href="<?= $this->theme->getBaseUrl().'/css/night.css'; ?>">
-<link href="<?= $this->theme->getBaseUrl().'/css/lightbox.css'; ?>" rel="stylesheet">
 <link href="<?= $this->theme->getBaseUrl(); ?>/font/open_sans/open-sans.css" rel="stylesheet">
 
 <!-- start: JavaScript -->
