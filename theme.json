@@ -1,0 +1,14 @@
+{
+    "id": "daynight",
+    "name": "Day/Night",
+	"author": "Green Meteor",
+	"website": "http://community.greenmeteor.pcriot.com/dashboard/",
+	"github": "https://github.com/GreenMeteor/humhub-daynight-theme",
+    "description": "A theme that allows users to switch between Day & Night mode.",
+    "keywords": ["theme","daynight"],
+    "version": "1.0.0",
+    "humhub": {
+        "minVersion": "1.2"
+    },
+	"license": "AGPL-3.0",
+}
