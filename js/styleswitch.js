@@ -1,6 +1,6 @@
 //Style Sheet Switcher version 1.1 Oct 10th, 2006
-//Author: Dynamic Drive: http://www.dynamicdrive.com
-//Usage terms: http://www.dynamicdrive.com/notice.htm
+//Author: Dynamic Drive: https://www.dynamicdrive.com/
+//Usage terms: https://www.dynamicdrive.com/notice.htm
 
 var manual_or_random="manual" //"manual" or "random"
 var randomsetting="3 days" //"eachtime", "sessiononly", or "x days (replace x with desired integer)". Only applicable if mode is random.
