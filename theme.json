@@ -6,7 +6,7 @@
 	"github": "https://github.com/GreenMeteor/humhub-daynight-theme",
     "description": "A theme that allows users to switch between Day & Night mode.",
     "keywords": ["theme","daynight"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "humhub": {
         "minVersion": "1.2"
     },
